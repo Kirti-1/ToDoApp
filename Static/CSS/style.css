@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    background-color: aqua;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* height:500px;
+    width: 500px; */
+}
+
+#todomainbody{
+    background-color: whitesmoke;
+    height:50vh;
+    width:50vw;
+}
+input{
+    border:none;
+    width: 100%;
+
+}
+
+input[type=text], input[type=date], select[name="category"] {
+    /* background-color: #04AA6D; */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
