@@ -14,7 +14,6 @@ const router = require('./Routes')
 app.use(express.static(path.join(__dirname, 'Static')))
 app.use(bodyParser.urlencoded({extended: true}));
 app.use('/', router);
-app.use('/user',require('./Routes/users'))
 app.use(express.json())
 
 
